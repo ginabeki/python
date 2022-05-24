@@ -1,7 +1,9 @@
-# Tuples are Immutable lists.
-# why tuple is important, makes things easier when you dont want to change a list. Makes code more predictable, and efficient. You cant sort, run reverse which makes them less flexible than lists.
-# They are faster than a list
-# geographic location and coordinates is a good example of a tuple.
+# Tuples are immutable lists.
+# Tuples are important because they make things easier when you don't want to change a list. 
+# They make code more predictable, and efficient. 
+# You can't sort, run reverse which makes them less flexible than lists.
+# They are faster than lists.
+# geographic location and coordinates are a good example of a tuple.
 my_tuple = (1,2,3,4,5)
 
 user = {
