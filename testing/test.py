@@ -5,9 +5,9 @@
 import unittest
 import unittest1
 class TestMain(unittest.TestCase):
-    def test_do_staff(self):
+    def test_do_stuff(self):
         test_param = 10
-        result = unittest1.do_staff(test_param)
+        result = unittest1.do_stuff(test_param)
         self.assertEqual(result, 15)
 
 unittest.unittest1()

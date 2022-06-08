@@ -1,2 +1,2 @@
-def do_staff(num):
+def do_stuff(num):
     return num + 5
