@@ -8,7 +8,9 @@ def request_api_data(query_char):
     if res.status_code != 200:
         raise RuntimeError(f'Error fetching: {res.status_code}, check the API and try again.')
     return res
-
+# SHA1 Hash Generator
+# Md5 Hash Generator
+# idempotent
 # def read_response(response):
 #     print(response.text)
 

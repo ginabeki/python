@@ -10,3 +10,5 @@ with open('pdf1.pdf', 'rb') as file:
     writer.addPage(page)
     with open('tilt.pdf', 'wb') as new_file:
         writer.write(new_file)
+
+
